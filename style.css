@@ -1,0 +1,57 @@
+body {
+  background-color: #f8a1a4;
+  color: #291b64;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 20px;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.headings {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.horizontal {
+  border-bottom: 3px solid #291b64;
+}
+
+.skills-svg svg {
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .small-devices-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .vertical {
+    border-right: 3px solid #291b64;
+  }
+
+  .margin-desktop {
+    margin: 40px 0;
+  }
+}
